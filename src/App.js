@@ -1,5 +1,6 @@
 import './App.css';
-import { AiOutlinePhone, AiOutlineMail, AiOutlineLinkedin, AiOutlineWhatsApp, AiFillFacebook} from "react-icons/ai";
+import { AiOutlinePhone, AiOutlineMail, AiOutlineLinkedin, AiOutlineWhatsApp, AiFillFacebook, AiFillTwitterCircle} from "react-icons/ai";
+import {TbWorldWww} from "react-icons/tb";
 import avatar from "./asset/avatar.png";
 import nabena_ from "./asset/nabenaaa.jpg";
 //import ReactDOM from 'react-dom';
@@ -44,6 +45,8 @@ function App() {
             <a   href="https://www.linkedin.com/in/ebibowei-nabena"  rel="noreferrer" target='_blank' className='font-bold cursor-pointer animate-pulse'> <AiOutlineLinkedin size={25}/> </a >
             <a  href="https://facebook.com/iammrhaitch"  rel="noreferrer" target='_blank' className='font-bold cursor-pointer animate-pulse'><AiFillFacebook size={25}/></a>
             <a  href="https://wa.me/+2349068509555"  rel="noreferrer" target='_blank' className='font-bold  cursor-pointer animate-pulse'><AiOutlineWhatsApp size={25}/></a>
+            <a  href="https://twitter.com/bibonabena"  rel="noreferrer" target='_blank' className='font-bold  cursor-pointer animate-pulse'><AiFillTwitterCircle size={25}/></a>
+            <a  href="/"  rel="noreferrer" target='_blank' className='font-bold  cursor-pointer animate-pulse'><TbWorldWww size={25}/></a>
            </div>
            </div>
          </div>
