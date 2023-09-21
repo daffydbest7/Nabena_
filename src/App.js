@@ -1,13 +1,13 @@
 import './App.css';
 import { AiOutlinePhone, AiOutlineMail, AiOutlineLinkedin, AiOutlineWhatsApp, AiFillFacebook} from "react-icons/ai";
 import avatar from "./asset/avatar.png";
-import nabena_ from "./asset/nabenaa.jpg";
+import nabena_ from "./asset/nabenaaa.jpg";
 //import ReactDOM from 'react-dom';
 function App() {
   
   return (
     <div className="App text-white fixed">
-      <div className='container-2 '>
+      <div className='container-2 lg:mx-[100px]'>
       <div className='container  min-h-screen'>
         <section className='container border-2 border-gray-500 rounded-lg mt-[80px]'>
           {/**image */}
